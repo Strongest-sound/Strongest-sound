@@ -40,6 +40,9 @@ a{
     width:.51rem;
     height:.52rem;
 }
+input{
+    border: 1px solid #000;
+}
 /*底部*/
 .zml-bottom{
     width:100%;
