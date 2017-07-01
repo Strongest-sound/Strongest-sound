@@ -1,0 +1,48 @@
+body,html{
+    width:100%;
+    overflow: hidden;
+    height:100%;
+}
+.zml-total{
+
+    /*bottom: .5rem;*/
+    width:100%;
+    height:100%;
+}
+.zml-zhanwei{
+    width:100%;
+    height:82%;
+}
+.zml-top{
+    background-image: url("../img/zml-beijing.png");
+    background-size: contain;
+    position: fixed;
+    bottom:18%;
+    width:100%;
+    height:82%;
+    background-repeat: no-repeat;
+}
+/*.zml-bejing{*/
+    /*width:100%;*/
+/*}*/
+a{
+    display: block;
+    overflow: hidden;
+}
+.zml-reg{
+    width:.86rem;
+    height:.42rem;
+    float: right;
+    margin-right: .25rem;
+    margin-top: .2rem;
+}
+.zml-icon{
+    width:.51rem;
+    height:.52rem;
+}
+/*底部*/
+.zml-bottom{
+    width:100%;
+    height:18%;
+    background: red;
+}
