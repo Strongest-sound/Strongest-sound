@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>第六元素</title>
+</head>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/common.js"></script>
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/lp-recommend.css">
+<body>
+    <div id="header" style="background-image: url('../img/lp/recommend-12.png');background-size:cover;background-position: center">
+        <img class="return" src="../img/lp/recommend-1.png" alt="">
+        <div class="center">
+            <h4 class="title">评论</h4>
+            <img class="circle" src="../img/lp/recommend-11.png" alt="">
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="scroller">
+            <!--热门评论-->
+            <div class='hot'>
+                <img class='htitle' src="../img/lp/recommend-2.png" alt="">
+                <ul>
+                    <li>
+                        <div class="img" style="background-image: url('../img/lp/recommend-4.png');background-size:cover;background-position: center">
+                        </div>
+                        <div class="right">
+                            <div class="first">
+                                <div class="name">
+                                    <h4>TIM.GRANCE</h4>
+                                    <h5>2017-04-12</h5>
+                                </div>
+                                <div class="num">
+                                    <span>NO.</span><span>1</span>
+                                </div>
+                            </div>
+                            <img class="line1" src="../img/lp/recommend-9.png" alt="">
+                            <p>今天听的这首歌很符合我现在的心情，很有节奏感，很是
+                                活跃。棒棒哒</p>
+                            <img class="line2" src="../img/lp/recommend-10.png" alt="">
+                            <div class="share">
+                                <div class="like">
+                                    <img src="../img/lp/recommend-6.png" alt="">
+                                    <span>85423</span>
+                                </div>
+                                <div>
+                                    <img src="../img/lp/recommend-7.png" alt="">
+                                    <span>7236</span>
+                                </div>
+                                <div>
+                                    <img src="../img/lp/recommend-5.png" alt="">
+                                    <span>深圳</span>
+                                </div>
+                                <div class="strong">
+                                    <img src="../img/lp/recommend-8.png" alt="">
+                                    <img src="../img/lp/recommend-8.png" alt="">
+                                    <img src="../img/lp/recommend-8.png" alt="">
+                                    <img src="../img/lp/recommend-8.png" alt="">
+                                    <img src="../img/lp/recommend-8.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--普通评论-->
+            <div class="ordinary">
+                <img class='otitle' src="../img/lp/recommend-2.png" alt="">
+                <ul>
+                    <li>
+                        <div class="img" style="background-image: url('../img/lp/recommend-4.png');background-size:cover;background-position: center"></div>
+                        <div class="ocenter">
+                            <h4>TIM.GRANCE</h4>
+                            <p>这首电子音乐是很受欢迎。</p>
+                        </div>
+                        <a class="oright" href="">
+                            <img  src="../img/lp/recommend-13.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    window.onload=function(){
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+    }
+</script>
