@@ -15,7 +15,7 @@ body,html{
 }
 .zml-top{
     background-image: url("../img/zml-beijing.png");
-    background-size: contain;
+    background-size: cover;
     position: fixed;
     bottom:18%;
     width:100%;
