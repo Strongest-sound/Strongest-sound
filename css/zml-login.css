@@ -1,13 +1,18 @@
+.aaa{
+    height:5rem;
+    width:100px;
+}
 .first{
     display: none;
 }
-body{
+html{
     width:100%;
     overflow: hidden;
     height:100%;
 }
 .zml-total{
-    /*bottom: .5rem;*/
+    position: fixed;
+    bottom: 0;
     width:100%;
     height:100%;
 }
