@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33206a1-09f2-46ae-9589-5ccc6e6e141a" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/image/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/image/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/image/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/image/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/image/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/Latest_info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/Microphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/comment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/dotted_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/elec_music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/fabulous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/fabulous2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/five.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/headerbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/history.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/hot_recom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/intro_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/like_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/like_img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/like_simg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/local.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/position.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/ranking.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/record.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/record2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/scarousel_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/small_img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/star_half.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dzq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dzq_iscroll.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dzq-index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/dzq_index..js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dzq.css" afterPath="$PROJECT_DIR$/css/dzq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dzq-index.html" afterPath="$PROJECT_DIR$/html/dzq-index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +16,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dzq-index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dzq-index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/dzq-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="241" column="56" lean-forward="false" selection-start-line="241" selection-start-column="44" selection-end-line="241" selection-end-column="56" />
+            <state relative-caret-position="720">
+              <caret line="253" column="7" lean-forward="true" selection-start-line="253" selection-start-column="7" selection-end-line="253" selection-end-column="7" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -73,6 +35,7 @@
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -80,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dzq.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dzq_index..js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/dzq_index..js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="177" column="31" lean-forward="true" selection-start-line="177" selection-start-column="31" selection-end-line="177" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dzq.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/dzq.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="568" column="4" lean-forward="true" selection-start-line="568" selection-start-column="4" selection-end-line="568" selection-end-column="4" />
+            <state relative-caret-position="671">
+              <caret line="559" column="15" lean-forward="true" selection-start-line="559" selection-start-column="15" selection-end-line="559" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -120,8 +93,8 @@
         <option value="$PROJECT_DIR$/js/dzq_index..js" />
         <option value="$PROJECT_DIR$/css/swiper.min.css" />
         <option value="$PROJECT_DIR$/css/dzq_iscroll.css" />
-        <option value="$PROJECT_DIR$/html/dzq-index.html" />
         <option value="$PROJECT_DIR$/css/dzq.css" />
+        <option value="$PROJECT_DIR$/html/dzq-index.html" />
       </list>
     </option>
   </component>
@@ -182,7 +155,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,10 +170,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dzq" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,18 +316,18 @@
       <workItem from="1498879091107" duration="733000" />
       <workItem from="1498881485410" duration="14200000" />
       <workItem from="1498969184654" duration="18548000" />
-      <workItem from="1499004640443" duration="8322000" />
+      <workItem from="1499004640443" duration="9600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41803000" />
+    <option name="totallyTimeSpent" value="43081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14750378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -406,6 +375,7 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -438,6 +408,7 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -516,14 +487,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dzq_index..js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/dzq/position.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -590,10 +553,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/dzq_index..js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="177" column="31" lean-forward="true" selection-start-line="177" selection-start-column="31" selection-end-line="177" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dzq.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="559" column="15" lean-forward="true" selection-start-line="559" selection-start-column="15" selection-end-line="559" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/dzq-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="241" column="56" lean-forward="false" selection-start-line="241" selection-start-column="44" selection-end-line="241" selection-end-column="56" />
+        <state relative-caret-position="720">
+          <caret line="253" column="7" lean-forward="true" selection-start-line="253" selection-start-column="7" selection-end-line="253" selection-end-column="7" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -608,17 +587,10 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#li#0;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/dzq.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="568" column="4" lean-forward="true" selection-start-line="568" selection-start-column="4" selection-end-line="568" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -256,7 +256,7 @@
 <script>
     window.onload=function () {
         //iscroll
-        let myScroll = new IScroll('#wrapper', {
+        var myScroll = new IScroll('#wrapper', {
             mouseWheel: true,
             click: true
         });
@@ -265,7 +265,7 @@
         });
         myScroll.refresh();
         //swiper
-        let swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
             slidesPerView: 3,
             paginationClickable: true,
