@@ -256,14 +256,16 @@
 <script>
     window.onload=function () {
         //iscroll
-        var myScroll = new IScroll('#wrapper', {
-            mouseWheel: true,
-            click: true
-        });
-        document.addEventListener('touchmove', function (e) {
-            e.preventDefault();
-        });
-        myScroll.refresh();
+        setTimeout(function () {
+            var myScroll = new IScroll('#wrapper', {
+                mouseWheel: true,
+                click: true
+            });
+            document.addEventListener('touchmove', function (e) {
+                e.preventDefault();
+            });
+        },1000);
+
         //swiper
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
