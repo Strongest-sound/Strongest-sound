@@ -1,0 +1,288 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    height:100%;
+}
+/*头部*/
+#header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:1.73rem;
+}
+#header  .top{
+    overflow: hidden;
+}
+#header  .return{
+    float:left;
+    margin-left:0.24rem;
+    margin-top:0.2rem;
+    width:0.84rem;
+}
+#header .center{
+    float: left;
+    margin-left:2.39rem;
+    margin-top:0.3rem;
+    width:0.56rem;
+    text-align: center;
+}
+#header .center h4{
+    font-size:0.28rem;
+    color:#fff;
+}
+#header .center  .circle{
+    width:0.33rem;
+    display:block;
+    margin:auto;
+}
+#header .search{
+    width:7rem;
+    height:0.55rem;
+    border:0.03rem solid #fe5767;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    padding:0 0.2rem ;
+    margin:0 auto;
+    border-radius:0.3rem;
+    margin-top:0.12rem;
+}
+#header .search img{
+    height:0.08rem;
+}
+#header .search input{
+    width:5.8rem;
+    height:100%;
+    border:none;
+    outline: none;
+    background:none;
+    margin-left:0.12rem;
+    font-size:0.24rem;
+    color:#fff;
+}
+input::-webkit-input-placeholder{
+    color: #fff;opacity:1;
+}
+#header .search .listen{
+    height:0.25rem;
+}
+/*iscroll*/
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 1.73rem;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+#scroller {
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    background:#f8f8f8;
+}
+/*歌手查找*/
+.singer{
+    margin-top:0.24rem;
+    padding:0 0.24rem 0  0.26rem;
+    width:100%;
+    box-sizing: border-box;
+}
+.singer .stitle{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.singer .stitle img:nth-child(1){
+    height:0.61rem;
+}
+.singer .stitle img:nth-child(2){
+    height:0.09rem;
+
+}
+.singer .scon{
+    height: 1.13rem;
+    margin-top:0.32rem;
+    padding: 0;
+}
+/*swipper*/
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.singer .scon .content{
+    margin-left:0.4rem;
+    text-align: left;
+}
+.singer .scon  h4{
+    font-size:0.26rem;
+    color:#fff;
+}
+.singer .scon  h5{
+    font-size:0.22rem;
+    color:#fff;
+    margin-top:0.02rem;
+}
+/*歌手推荐*/
+.singer-rec{
+    margin-top:0.4rem;
+    padding:0 0.24rem 0  0.26rem;
+    width:100%;
+    box-sizing: border-box;
+}
+.singer-rec .srectitle{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.singer-rec .srectitle img:nth-child(1){
+    height:0.61rem;
+}
+.singer-rec .srectitle img:nth-child(2){
+    height:0.39rem;
+}
+.singer-rec  .singer-rec-con{
+    overflow: hidden;
+}
+.singer-rec  .singer-rec-con .box{
+    float:left;
+    margin-right:0.25rem;
+    margin-top:0.24rem;
+    position:relative;
+}
+.singer-rec  .singer-rec-con .box .circle{
+    width:auto;
+    height:0.47rem;
+    float:left;
+    padding:0 0.35rem;
+    border-radius: 1rem;
+    border:0.04rem solid transparent;
+    background-clip:padding-box,border-box;
+    background-origin:padding-box,border-box;
+    background-image:linear-gradient(30deg,#fff,#fff),linear-gradient(30deg,#ed2d5e,#f82586);
+    box-sizing: border-box;
+    color:#ed2d5e;
+    font-size:0.22rem;
+    line-height:0.47rem;
+    text-align:center;
+}
+.singer-rec  .singer-rec-con .box .circle1{
+    width:0.12rem;
+    height:0.12rem;
+    background:#fff;
+    border-radius:50%;
+    border:0.04rem solid rgba(247,182,207,0.6);
+    position:absolute;
+    top:50%;
+    margin-top:-0.06rem;
+}
+.singer-rec  .singer-rec-con .box .circle3{
+    left:-0.06rem;
+}
+.singer-rec  .singer-rec-con .box .circle2{
+    right:-0.06rem;
+}
+/*热门电音*/
+.hot{
+    margin-top:0.4rem;
+    padding:0 0.24rem 0  0.26rem;
+    width:100%;
+    box-sizing: border-box;
+}
+.hot .hottitle{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot .hottitle img:nth-child(1){
+    height:0.61rem;
+}
+.hot .hotcon li{
+    width:3.38rem;
+    float:left;
+    margin-top:0.28rem;
+    box-shadow:0 0 0.1rem 0 #e7e3e3;
+}
+.hot .hotcon li:nth-child(odd){
+    margin-right:0.24rem;
+}
+.hot .hotcon a{
+    width:3.38rem;
+    border-radius:0.04rem ;
+    box-shadow: 0 0 0.03rem 0 #ddd7d7;
+    padding-bottom:0.1rem;
+}
+.hot .hotcon a .img{
+    width:100%;
+    display:block;
+}
+.hot .hotcon a .letter{
+    overflow: hidden;
+    margin-left:0.21rem;
+    margin-top:0.2rem;
+}
+.hot .hotcon a .letter h4{
+    font-size:0.22rem;
+    color:#626060;
+}
+.hot .hotcon a .letter h5{
+    font-size:0.22rem;
+    color:#7a7979;
+    font-weight: normal;
+}
+.hot .hotcon a .letter img{
+    float:right;
+    width:0.4rem;
+    margin-right:0.24rem;
+    margin-top:-0.6rem;
+}
+.hot .hotcon a .tu{
+    height:0.55rem;
+    display: flex;
+    align-items: center;
+    margin-left:0.18rem;
+    margin-top:0.14rem;
+}
+.hot .hotcon a .tu .tou{
+    height:0.55rem;
+}
+.hot .hotcon a .tu h6{
+    font-size:0.26rem;
+    color:#8f8d8d;
+    margin-left:0.09rem;
+}
+.hot .hotcon a .tu div{
+    margin-left:0.27rem;
+}
+.hot .hotcon a .tu div img{
+    height:0.18rem;
+    float:left;
+    margin-left:0.06rem;
+}

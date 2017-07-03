@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>第六元素</title>
+</head>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/common.js"></script>
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/lp-search3.css">
+<link rel="stylesheet" href="../css/swiper.min.css">
+<style>
+    .swiper-container,.swiper-wrapper{
+        height:1.13rem;
+    }
+    .swiper-a{
+        margin-right:0.3rem;
+    }
+    .scon  .sswiper{
+        width:2.68rem !important;
+        height:1.13rem;
+    }
+</style>
+<body>
+<div id="header" style="background-image: url('../img/lp/search3-1.png');background-size:cover;background-position: center">
+    <div class="top">
+        <img class="return" src="../img/lp/recommend-1.png" alt="">
+        <div class="center">
+            <h4 class="title">评论</h4>
+            <img class="circle" src="../img/lp/recommend-11.png" alt="">
+        </div>
+    </div>
+    <form  class='search' action="">
+        <img src="../img/lp/search-2.png" alt="">
+        <input type="text" placeholder="请输入您想听的歌曲">
+        <img class="listen" src="../img/lp/search2-6.png" alt="">
+    </form>
+    <img class="result" src="../img/lp/search3-2.png" alt="">
+    <span class="result1">223</span>
+    <span class="result2">345</span>
+</div>
+<div id="wrapper">
+    <div id="scroller">
+        <!--推荐结果-->
+        <div class="tui">
+            <img class="tuititle" src="../img/lp/search3-3.png" alt="">
+        </div>
+        <!--其它结果-->
+        <div class="other">
+            <img class="othertitle" src="../img/lp/search3-4.png" alt="">
+            <div class="othercon">
+                <img class="line" src="../img/lp/search3-5.png" alt="">
+                <img class="tu" src="../img/lp/search3-6.png" alt="">
+                <div class="letter">
+                    <div class="top">
+                        <h4>THE CREAZY NIGHT</h4>
+                        <h5>疯狂的晚上</h5>
+                        <img src="../img/lp/search3-7.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <img  class="tou" src="../img/lp/search3-9.png" alt="">
+                        <div class="right">
+                            <div class="line1">
+                                <span>发布者 ： </span><span>小黑狗 </span>
+                                <div>
+                                    <img src="../img/lp/search-13.png" alt="">
+                                    <img src="../img/lp/search-13.png" alt="">
+                                    <img src="../img/lp/search-13.png" alt="">
+                                    <img src="../img/lp/search-13.png" alt="">
+                                    <img src="../img/lp/search-13.png" alt="">
+                                </div>
+                            </div>
+                            <div class="line2">
+                                <img src="../img/lp/search3-10.png" alt="">
+                                <span>13456</span><span>人次</span>
+                                <img src="../img/lp/search3-11.png" alt="">
+                                <span>深圳</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../js/swiper.min.js"></script>
+<script>
+    window.onload=function(){
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+        $('.return').click(function(){
+            location.href=history.back();
+        })
+        $('.search input').change(function(){
+            let value=$('.search input').val();
+            location.href=`lp-search2.html?value=${value}`;
+        })
+        $('.listen').click(function(){
+            let value=$('.search input').val();
+            location.href=`lp-search3.html?value=${value}`;
+        })
+    }
+</script>
