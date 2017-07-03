@@ -32,11 +32,6 @@ header ul.play{
     height:50%;
     position: relative;
 }
-.play li:nth-child(2) a{
-    display:block;
-    width:auto;
-    height:auto;
-}
 .top{
     padding-top: 0.12rem;
     box-sizing: border-box;
@@ -49,26 +44,39 @@ a.playicon img{
 }
 a.commenticon,a.microphoneicon{
     float:right;
-    width:0.5rem;
+    width:0.55rem;
+    height:0.55rem;
     margin-left: 0.1rem;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 6px #f1f1f1;
 }
+a.commenticon img ,a.microphoneicon img{
+   width: 100%;
+    height:auto;
+}
 .dotted_line{
+    width:2.8rem;
+    height:auto;
     position: absolute;
     left:0;
     bottom:0;
 }
-.img_search{
+.bottom .img_search{
+    width:100%;
+    height:auto;
     position: absolute;
     bottom: 0.1rem;
     left:0;
 }
+.bottom .img_search img{
+    width:100%;
+    height:auto;
+}
 /*首页轮播*/
 .d_index_carousel{
     width:100%;
-    height:4.5rem;
+    height:auto;
     background-color:#fff;
     background-image: url("../img/dzq/carousel_bg.png");
     background-repeat: no-repeat;
@@ -110,21 +118,21 @@ a.commenticon,a.microphoneicon{
     width: 60%;
     height: 2.75rem;
     top: 15%;
-    left: -43.5%;
+    left: -51%;
     z-index: 2;
 }
 .slide .img3{
     width: 5.9rem;
     height: 3.5rem;
     top: 10%;
-    left: 20.5%;
+    left: 10%;
     z-index: 3;
 }
 .slide .img4{
     width: 60%;
     height: 2.75rem;
     top: 15%;
-    left: 85%;
+    left: 90%;
     z-index: 2;
 }
 .slide .img5{
@@ -137,8 +145,8 @@ a.commenticon,a.microphoneicon{
 .slide-bt{
     width:90px;
     position: absolute;
-    left: 56%;
-    top: 5%;
+    left: 62%;
+    top: 2%;
     z-index: 10;
 }
 .slide-bt span{
@@ -158,8 +166,9 @@ button{
 }
 /*介绍*/
 .d_intro{
+    display:block;
     width:4.95rem;
-    height:1.25rem;
+    height:1.26rem;
     position: absolute;
     left:50%;
     margin-left: -2.475rem;
@@ -173,58 +182,77 @@ button{
 .d_intro_white{
     background:#fbfbfb;
     width:100%;
-    height:95%;
+    height:1.18rem;
     padding: 0 0.13rem;
     box-sizing: border-box;
 }
 .d_intro_white .d_intro_first{
     width: 100%;
     height:auto;
-    padding-top: 0.05rem;
     box-sizing: border-box;
     overflow: hidden;
 }
 .d_intro_white .d_intro_first h4{
     color:#f81f34;
     font-size: 0.28rem;
-    font-family: "San Francisco Display";
+    font-family: "Myriad Pro";
     float: left;
+    margin-top: 0.10rem;
 }
 .d_intro_white .d_intro_first ul.d_intro_star{
     width: auto;
     height:auto;
     display: flex;
     float: right;
+    margin-top: 0.06rem;
 }
 ul.d_intro_star li{
-    margin: 0 0.02rem;;
+    width:0.16rem ;
+    height:auto;
+    margin: 0 0.04rem;;
+}
+ul.d_intro_star li img{
+    width:100%;
+    height:auto;
 }
 .d_intro_white p{
     font-size: 0.22rem;
     font-family: "苹方 常规";
     color:#a7a7a7;
+    line-height: 0.22rem;
 }
 .d_intro_bottom{
-    width:auto;
+    width:100%;
     height:auto;
     display:flex;
-    padding-left: 0.05rem;
     box-sizing: border-box;
     justify-content: space-between;
 }
-.d_intro_bottom_left img{
-    float:left;
+.d_intro_bottom_left{
+    width:2.37rem;
+    height:auto;
+    overflow: hidden;
+    display: flex;
 }
-.d_intro_bottom_left img:nth-child(1){
-    width: 0.44rem;
+.d_intro_bottom_left >img:nth-child(1){
+    width: 0.42rem;
+    height:0.42rem;
     margin-right: 0.05rem;
+    margin-top: 0.05rem;
 }
-.d_intro_bottom_left img:nth-child(2){
+.d_intro_bottom_left .d_box{
+    width:auto;
+    height:auto;
+    overflow: hidden;
+    margin-top: -0.1rem;
+}
+.d_intro_bottom_left .d_box >img{
     width:1.95rem;
-    margin-top: 0.1rem;
-    margin-bottom: 0.07rem;
+    height:auto;
 }
-.d_intro_bottom_left h4{
+.d_intro_bottom_left .d_box> h4{
+    width:auto;
+    height:auto;
     font-size: 0.22rem;
     color:#52575c;
     font-family: "Myriad Pro";
@@ -235,17 +263,21 @@ ul.d_intro_star li{
     display:flex;
     overflow: hidden;
 }
-.d_intro_bottom_right div{
+.d_intro_bottom_right div.fabulous{
     display:flex;
     margin:0.16rem 0.1rem 0;
 }
-.d_intro_bottom_right div a{
-    width:auto;
-    height:auto;
+.d_intro_bottom_right div.fabulous div.d_fabulous{
+    width:0.25rem;
+    height:0.25rem;
     border-radius: 50%;
     box-shadow: 0 0 6px #f1f1f1;
 }
-.d_intro_bottom_right div span{
+.d_intro_bottom_right div.fabulous div.d_fabulous img{
+    width:100%;
+    height:auto;
+}
+.d_intro_bottom_right div.fabulous span{
     color:#c2c2c2;
     font-size: 0.18rem;
     font-family: "苹方 常规";
@@ -267,14 +299,26 @@ section.d_function .d_Modular{
     justify-content: space-between;
 }
 .d_Modular li{
+    width:0.95rem;
+    height:auto;
     text-align: center;
+}
+.d_Modular li > a{
+    width:auto;
+    height:auto;
+    display:block;
+}
+.d_Modular li img{
+    display:block;
+    width:100%;
+    height:auto;
 }
 .d_Modular li p{
     color:#7e7e7e;
     font-size: 0.24rem;
     font-family: "苹方 常规";
 }
-/*热门推荐 最新资讯*/
+/*新歌速递 热门推荐 最新资讯*/
 section.d_position{
     width: 100%;
     height:auto;
@@ -285,25 +329,33 @@ section.d_position{
     width:100%;
     height:auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 0.3rem;
+    box-sizing: border-box;
     overflow: hidden;
 }
 .d_position_modular li{
     width:2.2rem;
     height:1.4rem;
     border-radius: 0.15rem;
-    background-image: url("../img/dzq/Latest_info.png");
     background-size: cover;
     overflow: hidden;
     box-shadow: 0 0 30px #f1f1f1;
     position: relative;
 }
-.d_position_modular li:hover{
-    background-image: url("../img/dzq/hot_recom.png");
+.d_position_modular li > a{
+    display:block;
+    width:100%;
+    height:100%;
 }
-.d_position_modular li:hover div.d_pos{
-    color:#f94c60;
+.d_position_modular li:nth-child(1){
+    background-image: url("../img/dzq/new_song.png");
+}
+.d_position_modular li:nth-child(2){
+    background-image: url("../img/dzq/hot.png");
+}
+.d_position_modular li:nth-child(3){
+    background-image: url("../img/dzq/Latest_info.png");
 }
 .d_position_modular li div.d_pos{
     position: absolute;
@@ -326,6 +378,12 @@ section.d_position{
     border-radius: 50%;
     box-shadow: 0 0 6px #f1f1f1;
     margin-right: 0.05rem;
+    margin-top: 0.08rem;
+}
+.d_img img{
+    display:block;
+    width:100%;
+    height:100%;
 }
 .d_position_modular li div.d_position_right span{
     margin-top: 0.02rem;
@@ -341,6 +399,9 @@ section.d_elecMusic{
     background-repeat: no-repeat;
     background-size: 100% auto;
     overflow: hidden;
+}
+section.d_elecMusic img.d_elecMusic_title{
+    width:3.7rem;
 }
 .d_elecMusic .d_elecMusic_carousel{
     width:100%;
@@ -376,15 +437,16 @@ section.d_elecMusic{
 }
 .scarousel_bg{
     width:100%;
+    height:auto;
 }
 .d_song_img{
     width:1.5rem;
     height:1.5rem;
     position: absolute;
-    left:0.35rem;
+    left:0.15rem;
     top:15%;
     border-radius: 0.15rem;
-    box-shadow: 0 0 10px #f1f1f1;
+    box-shadow: 0 0 0.06rem #f1f1f1;
     background-image: url("../img/dzq/small_img.png");
     background-size: 100% 100%;
 }
@@ -395,13 +457,18 @@ section.d_elecMusic{
     position: absolute;
     left:0;
     bottom: 0;
-    padding-left:0.35rem;
+    padding-left: 0.15rem;
     box-sizing: border-box;
     text-align: left;
 }
+.d_elecMusic_con a{
+    display:block;
+    width:auto;
+    height:auto;
+}
 .d_elecMusic_con p{
     color:#626060;
-    font-size:0.34rem;
+    font-size:0.24rem;
     font-family: "San Francisco Display";
 }
 .d_elecMusic_con h4{
@@ -411,19 +478,28 @@ section.d_elecMusic{
 }
 .d_elecMusic_con .d_elecMusic_record{
     margin-top: 0.1rem;
+    padding-top: 0.02rem;
+    box-sizing: border-box;
 }
-.d_elecMusic_con .d_elecMusic_record span{
+.d_elecMusic_con .d_elecMusic_record > img{
+    width:0.24rem;
+    height:auto;
+    margin-top: 0.02rem;
+    float:left;
+}
+.d_elecMusic_con .d_elecMusic_record > span{
     color:#c3c3c3;
-    font-family: "苹方 中等";
+    font-family: "Myriad Pro";
     font-size: 0.18rem;
-    margin:-0.05rem 0.1rem 0;
+    float:left;
+    margin-left: 0.07rem;
 }
 .d_elecMusic_bottom{
     width:100%;
     height:auto;
     overflow: hidden;
     line-height: 0.5rem;
-    margin-top: 0.1rem;
+    margin-top: 0.4rem;
 }
 .d_elecMusic_bottom .d_head{
     width:0.45rem;
@@ -445,12 +521,18 @@ section.d_elecMusic{
     margin-left: 0.1rem;
 }
 .d_elecMusic_bottom .d_fabulous{
+    width:0.29rem;
+    height:0.24rem;
     float:right;
     margin-right: 0.3rem;
 }
+.d_elecMusic_bottom .d_fabulous > img{
+    width:100%;
+    height:auto;
+}
 .d_seat{
     width:100%;
-    height:2.4rem;
+    height:1.7rem;
 }
 /*猜你喜欢*/
 section.d_guess_like{
@@ -458,6 +540,9 @@ section.d_guess_like{
     width:100%;
     height:auto;
     overflow: hidden;
+}
+section.d_guess_like .d_like_title{
+    width:3.7rem;
 }
 div.d_like{
     width:100%;
@@ -469,14 +554,18 @@ ul.d_like_listcon{
     width:100%;
     height:auto;
     overflow: hidden;
-    margin-top: 0.2rem;
+    margin-top: 0.1rem;
     overflow: hidden;
 }
 .d_like_listcon > li{
     width:7.15rem;
-    height:1.8rem;
+    height:1.85rem;
     margin:0.15rem auto;
     box-shadow: 0 0 0.1rem #ccc;
+}
+.d_like_listcon > li > a{
+    width:100%;
+    height:100%;
 }
 .d_like_listcon > li .d_decorate{
     width:auto;
@@ -489,7 +578,7 @@ ul.d_like_listcon{
     height:1rem;
     background:#fa2e84;
     border-radius: 0.5rem;
-    margin-top: 0.2rem;
+    margin-top: 0.1rem;
 }
 .d_like_listcon > li .d_decorate .d_circle{
     width:0.08rem;
@@ -506,9 +595,9 @@ ul.d_like_listcon{
     text-align: center;
 }
 .d_like_left .d_like_img{
-    width:1.1rem;
-    height:1.1rem;
-    margin:0.1rem auto 0;
+    width:1.12rem;
+    height:1.12rem;
+    margin:0.05rem auto 0;
     border-radius: 50%;
     background-image: url("../img/dzq/like_bg.png");
     background-size: 100%;
@@ -535,16 +624,19 @@ ul.d_like_listcon{
     top:0;bottom:0;
     margin:auto;
 }
-.d_like_left h4,.d_like_left h5{
+.d_like_left > h4{
     color:#b9b9b9;
     font-family: "苹方 中等";
-    font-size: 0.2rem;
+    font-size: 0.24rem;
+}
+.d_like_left > h5{
+    font-size: 0.18rem;
+    color:#b9b9b9;
 }
 .d_like_right{
     width:5.15rem;
     height:100%;
     float:left;
-    margin-left: 0.3rem;
     margin-top: 0.15rem;
 }
 .d_like_top{
@@ -556,26 +648,150 @@ ul.d_like_listcon{
     color:#626060;
     font-size: 0.22rem;
     font-family: "苹方 中等";
+    margin-top: 0.15rem;
 }
-.d_like_top h5{
+.d_like_top > span{
     color:#b9b9b9;
     font-size: 0.18rem;
     font-family: "苹方 中等";
     margin-top: 0.05rem;
-    margin-bottom: 0.05rem;
+    margin-bottom: 0.1rem;
 }
-.d_like_top img{
-    width:30%;
+.d_like_top > img{
+    width:20%;
+    display:block;
+    margin-left: 0.1rem;
 }
-.d_like_bottom{
+.d_like_center{
     width:100%;
     height:auto;
     overflow: hidden;
+    margin-top: 0.1rem;
 }
 .d_like_play,.d_like_issue{
     width:auto;
     height:auto;
+    float:left;
+    display: flex;
 }
-.d_like_play .d_circle_red{
-
+.d_like_play{
+    margin-right: 0.35rem;
+}
+.d_like_play>div,.d_like_issue > div{
+    width:0.14rem;
+    height:0.14rem;
+    border-radius: 50%;
+    margin-top: 0.05rem;
+    margin-right: 0.1rem;
+}
+.d_like_play>div.d_circle_red{
+    background:#fff;
+    /*box-shadow: 0 0 0.06rem #e22a77;*/
+}
+.d_like_issue > div.d_circle_green{
+    background:#fff;
+    /*box-shadow: 0 0 0.06rem #c1e22a;*/
+}
+.d_like_play > span,.d_like_issue >span{
+    color:#fff;
+    font-size:0.18rem;
+    font-family: "苹方 中等";
+}
+/*点赞人头像*/
+.d_like_bottom{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    line-height: 0.5rem;
+}
+.d_like_photo{
+    width:1.7rem;
+    height:0.46rem;
+    overflow: hidden;
+    display:flex;
+    float: left;
+}
+.d_like_photo li{
+    width:0.46rem;
+    height:0.46rem;
+    border-radius: 50%;
+    background-size: 100%;
+}
+.d_like_photo li:nth-child(1)~li{
+    margin-left: -0.15rem
+}
+.d_like_bottom p{
+    color:#c3c3c3;
+    font-size: 0.18rem;
+    font-family: "Myriad Pro";
+    float:left;
+}
+.d_current{
+    width:auto;
+    height:auto;
+    float: right;
+    overflow: hidden;
+    display: flex;
+}
+.d_current  div.d_current_headerset{
+    width:0.32rem;
+    height:0.32rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0.06rem #f1f1f1;
+    margin-top: 0.05rem;
+}
+.d_current  div.d_current_headerset img{
+    width:100%;
+    height:100%;
+}
+.d_current  > p{
+    color:#c3c3c3;
+    font-size:0.18rem;
+    font-family: "苹方 常规";
+}
+/*底部介绍*/
+footer {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background: #f81f34;
+    padding: 0;
+}
+footer div.iconbtn{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer div.iconbtn > a{
+    display:block;
+    width:0.66rem;
+    height:0.66rem;
+    border-radius: 50%;
+    margin-top: 0.22rem;
+}
+footer div.iconbtn > a:nth-child(3){
+    margin: 0;
+}
+footer div.iconbtn > a img{
+    width:100%;
+}
+footer img.d_line1{
+    width:auto;
+    height:0.4rem;
+    position: absolute;
+    left:20%;
+    top:50%;
+    margin-top: -0.2rem;
+}
+footer img.d_line2{
+    width:auto;
+    height:0.4rem;
+    position: absolute;
+    right:20%;
+    top:50%;
+    margin-top: -0.2rem;
 }
