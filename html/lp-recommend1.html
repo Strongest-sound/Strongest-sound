@@ -28,10 +28,11 @@
         <form action="">
             <!--<input type="text">-->
             <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="letter">
+                <span class="normal">0</span>/<span class="total">300</span>
+            </div>
+            <input class="submit" type="submit">
         </form>
-        <div class="letter">
-            <span class="normal">120</span>/<span class="total">300</span>
-        </div>
     </div>
 </div>
 </body>
@@ -43,5 +44,19 @@
             scrollbars: true,
             click:true
         });
+
+        let total=$('.letter .total').html();
+        $('form textarea').bind('input propertychange', function() {
+            let value=$('form textarea').val();//获取textarea的输入值
+            let len=value.length;
+            if(len<=10){
+                $('.letter .total').html(total-len);
+                $('.letter .normal').html(len);
+            } else{
+                $('form textarea').val(function() {//截取300个字符
+                    return value.substr(0,300);
+                });
+            }
+        })
     }
 </script>
