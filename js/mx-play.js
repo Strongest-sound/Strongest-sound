@@ -15,7 +15,7 @@ window.onload=function(){
     var fleg=false;  //控制是否随机播放的开关
     var	currentTime=5;
     var musics=[
-	{id:'$1',name:'遇见你',who:'牛奶咖啡',src:'music/牛奶咖啡 - 遇见你.mp3',zhuanji:'遇见你',bigimg:'img/big-1.jpg',img:'img/thumb.jpg',geci:[
+	{id:'$1',name:'遇见你',who:'牛奶咖啡',src:'../music/牛奶咖啡 - 遇见你.mp3',zhuanji:'遇见你',bigimg:'../img/big-1.jpg',img:'../img/thumb.jpg',geci:[
 {time:"00:00",value1:" 遇见你 (《因为遇见你》电视剧插曲) - 牛奶咖啡"},
 {time:"00:03",value1:" 词：小乔"},
 {time:"00:04",value1:" 曲：格非"},
@@ -70,11 +70,11 @@ window.onload=function(){
 {time:"04:07",value1:" 不愿把彼此唤醒"},
 {time:"04:11",value1:" 只想要慢慢靠近"},
 {time:"04:16",value1:" 慢慢靠近"}]},
-	{id:'$2',name:'十点半的地铁',who:'李健 ',src:'music/李健 - 十点半的地铁(Live).mp3',zhuanji:'十点半的地铁',bigimg:'img/big-2.jpg',img:'img/thumb.jpg'},
-	{id:'$3',name:'另一种伴侣',who:'牛奶咖啡',src:'music/李佑晨 - 另一种伴侣.mp3',zhuanji:'另一种伴侣',bigimg:'img/big-3.jpg',img:'img/thumb.jpg'},
-	{id:'$4',name:'幸福不是情歌',who:'刘若英',src:'music/刘若英 - 幸福不是情歌.mp3',zhuanji:'幸福不是情歌',bigimg:'img/big-4.jpg',img:'img/thumb.jpg'},
-	{id:'$5',name:'爱不爱我',who:'狮子合唱团',src:'music/狮子合唱团 - 爱不爱我(Live).mp3',zhuanji:'爱不爱我',bigimg:'img/big-5.jpg',img:'img/thumb.jpg'},
-	{id:'$6',name:'南风吹',who:'董贞 ',src:'music/董贞 - 南风吹.mp3',zhuanji:'南风吹',bigimg:'img/big-6.jpg',img:'img/img-6.jpg'}
+	{id:'$2',name:'十点半的地铁',who:'李健 ',src:'../music/李健 - 十点半的地铁(Live).mp3',zhuanji:'十点半的地铁',bigimg:'../img/big-2.jpg',img:'../img/thumb.jpg'},
+	{id:'$3',name:'另一种伴侣',who:'牛奶咖啡',src:'../music/李佑晨 - 另一种伴侣.mp3',zhuanji:'另一种伴侣',bigimg:'../img/big-3.jpg',img:'../img/thumb.jpg'},
+	{id:'$4',name:'幸福不是情歌',who:'刘若英',src:'../music/刘若英 - 幸福不是情歌.mp3',zhuanji:'幸福不是情歌',bigimg:'../img/big-4.jpg',img:'../img/thumb.jpg'},
+	{id:'$5',name:'爱不爱我',who:'狮子合唱团',src:'../music/狮子合唱团 - 爱不爱我(Live).mp3',zhuanji:'爱不爱我',bigimg:'../img/big-5.jpg',img:'../img/thumb.jpg'},
+	{id:'$6',name:'南风吹',who:'董贞 ',src:'../music/董贞 - 南风吹.mp3',zhuanji:'南风吹',bigimg:'../img/big-6.jpg',img:'../img/thumb.jpg'}
 	]
     var audio= document.getElementById("audio");
     $(".audio").click(function(){
