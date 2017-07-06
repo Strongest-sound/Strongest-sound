@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>排行</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/dzq-dowload.css">
+    <link rel="stylesheet" href="../css/F-song-ranking.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/iscroll.js"></script>
+    <!--<script src="../js/L-one.js"></script>-->
+</head>
+<body>
+<div id="header" style="background-image: url('../img/dzq/dowload.png');background-size:cover;background-position: center">
+    <div class="top">
+        <a href=""><img class="return" src="../img/lp/recommend-1.png" alt=""></a>
+        <div class="center">
+            <h4 class="title">排行</h4>
+            <img class="circle" src="../img/lp/recommend-11.png" alt="">
+        </div>
+    </div>
+    <div class="d_total">
+        <div class="d_purples"></div>
+        <div class="d_red"></div>
+        <h4>最近播放36首歌曲</h4>
+    </div>
+</div>
+<div id="wrapper">
+    <main id="scroller">
+        <section class="F-ranking">
+            <ul>
+                <li>
+                    <div>新歌榜</div>
+                    <div>
+                        <div>
+                            <img src="../img/F-img/1.png" alt="">
+                            <p>田馥甄-小幸运</p>
+                            <p>Costumes & Access Picture</p>
+                        </div>
+                    </div>
+                    <p>02. 洛天依－深夜书店</p>
+                    <p>03. 赵雷－成都</p>
+                </li>
+                <li>
+                    <div>飙升榜</div>
+                    <div>
+                        <div>
+                            <img src="../img/F-img/1.png" alt="">
+                            <p>李玉刚-刚好遇见你</p>
+                            <p>Costumes & Access Picture</p>
+                        </div>
+                    </div>
+                    <p>02.The One-The Chainsmokers</p>
+                    <p>03.大雁-马頔
+                    </p>
+                </li>
+                <li>
+                    <div>原创榜</div>
+                    <div>
+                        <div>
+                            <img src="../img/F-img/1.png" alt="">
+                            <p>李玉刚-刚好遇见你</p>
+                            <p>Costumes & Access Picture</p>
+                        </div>
+                    </div>
+                    <p>02.阿和-崔开潮</p>
+                    <p>03.旧梦如炽-王三溥</p>
+                </li>
+                <li>
+                    <div>歌手榜</div>
+                    <div>
+                        <div>
+                            <img src="../img/F-img/1.png" alt="">
+                            <p>薛之谦</p>
+                            <p>Costumes & Access Picture</p>
+                        </div>
+                    </div>
+                    <p>2.周杰伦 <span></span><em>1598757</em></p>
+                    <p>3.陈奕迅 <span></span><em>1598757</em></p>
+                </li>
+            </ul>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
+<script>
+    var myScroll = new IScroll('#wrapper', {
+        mouseWheel: true,
+        scrollbars: false,
+        click:true,
+    });
+</script>

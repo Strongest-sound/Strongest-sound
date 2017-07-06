@@ -6,6 +6,10 @@ header{
     background-size: cover;
     padding:0.1rem 0;
     box-sizing: border-box;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1000;
 }
 header ul.play{
     width: 7.05rem;
