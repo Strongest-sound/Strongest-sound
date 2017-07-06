@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>听歌历史</title>
+    <link rel="stylesheet" href="../css/dzq-dowload.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/dzq_iscroll.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/iscroll.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+</head>
+<body>
+    <div id="header" style="background-image: url('../img/dzq/dowload.png');background-size:cover;background-position: center">
+        <div class="top">
+            <a href=""><img class="return" src="../img/lp/recommend-1.png" alt=""></a>
+            <div class="center">
+                <h4 class="title">听歌历史</h4>
+                <img class="circle" src="../img/lp/recommend-11.png" alt="">
+            </div>
+        </div>
+       <div class="d_total">
+           <div class="d_purples"></div>
+           <div class="d_red"></div>
+           <h4>最近播放36首歌曲</h4>
+       </div>
+    </div>
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="music">
+                <div class="box">
+                    <div class="swipeLeft">
+                    <div class="show">
+                        <div class="d_like_img">
+                            <div class="d_replace"></div>
+                            <img src="../img/dzq/like_simg.png" alt="" class="d_small-img">
+                        </div>
+                        <div class="d_info">
+                            <h4>FLASH FRUIT BEST YOUR LIFE</h4>
+                            <span>PERFUM</span>
+                            <img src="../img/dzq/dotted_line.png" alt="">
+                            <div class="d_song_person">
+                                <img src="../img/dzq/erji.png" alt="">
+                                <span>4565</span>
+                            </div>
+                            <div class="d_fabulaus">
+                                <img src="../img/dzq/heart.png" alt="">
+                                <span>1234567</span>
+                            </div>
+                        </div>
+                        <div class="d_icon_time">
+                            <div class="d_icon">
+                                <a href=""><img src="../img/lp/search-11.png" alt=""></a>
+                                <a href=""><img src="../img/lp/search3-7.png" alt=""></a>
+                            </div>
+                            <p>1天前</p>
+                        </div>
+                    </div>
+                    <div class="hid">
+                        <div class="d_del">
+                            <div class="d_delpos"> <img src="../img/dzq/del.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    //iscroll
+    setTimeout(function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            click: true
+        });
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        });
+    },1000);
+    //侧滑
+    $(".swipeLeft").each(function(index,value){
+        value.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            startX = e.changedTouches[0].pageX,
+                startY = e.changedTouches[0].pageY;
+        });
+        value.addEventListener("touchmove", function(e) {
+            e.preventDefault();
+            moveEndX = e.changedTouches[0].pageX,
+                moveEndY = e.changedTouches[0].pageY,
+                X = (moveEndX - startX)/100,
+                Y = (moveEndY - startY)/100;
+            var l=parseInt($(".show").eq(index).css('marginLeft'));
+            if(0>=l>-3){
+                if(X<-0.4){
+                    $(".show").eq(index).css('marginLeft','-0.8rem');
+                }
+            }
+            if(l<0){
+                if(X>0.4){
+                    $(".show").eq(index).css('marginLeft','0');
+                }
+            }
+        });
+    })
+</script>
