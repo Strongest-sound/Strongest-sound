@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33206a1-09f2-46ae-9589-5ccc6e6e141a" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/del.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/dowload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/erji.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/location_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/recommend-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dzq-dowload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dzq-download.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dzq-history.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dzq-location.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/shanping1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/shanping2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/shanping3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dzq/shanpingBtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/dzq-shanping.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dzq_iscroll.css" afterPath="$PROJECT_DIR$/css/dzq_iscroll.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dzq-index.html" afterPath="$PROJECT_DIR$/html/dzq-index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/dzq.css" afterPath="$PROJECT_DIR$/css/dzq-index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,14 +18,25 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dzq-shanping.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/dzq-shanping.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,6 +71,7 @@
         <option value="$PROJECT_DIR$/html/dzq-download.html" />
         <option value="$PROJECT_DIR$/html/dzq-history.html" />
         <option value="$PROJECT_DIR$/html/dzq-location.html" />
+        <option value="$PROJECT_DIR$/html/dzq-shanping.html" />
       </list>
     </option>
   </component>
@@ -117,6 +121,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strongest-sound" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strongest-sound" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -126,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/web前端/JS/js/js/function/xuanxiangka.html" />
+    <property name="last_opened_file_path" value="E:/项目/音乐app/MusicApp" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -240,17 +258,18 @@
       <workItem from="1499140065087" duration="1824000" />
       <workItem from="1499160070708" duration="70000" />
       <workItem from="1499265685521" duration="3048000" />
-      <workItem from="1499301821183" duration="79000" />
+      <workItem from="1499301821183" duration="5384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89449000" />
+    <option name="totallyTimeSpent" value="94754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18456884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -299,11 +318,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/dzq/dowload.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/dzq/download.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -567,6 +581,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -601,6 +616,14 @@
             <element signature="n#li#2;n#ul#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#li#2;n#ul#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/dzq-shanping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
