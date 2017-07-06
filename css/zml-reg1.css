@@ -50,11 +50,11 @@ input{
 }
 input[name="tel"]{
     left:0;
-    bottom: 5rem;
+    bottom: 4.7rem;
 }
 input[name="email"]{
     left:0;
-    bottom: 3.17rem;
+    bottom: 2.9rem;
     padding-left: 0;
     margin-left: .85rem;
     width: 5.8rem;
@@ -72,11 +72,14 @@ input[name="email"]{
 }
 label[for]{
     position: absolute;
-    width:100px;
-    /*width：auto；*/
-    right:0;
-    top:0;
+    right:1rem;
     color:red;
     font-size: 12px;
-    padding:15px 0;
+    padding-bottom: .2rem;
+}
+label[id='tel-error']{
+    bottom:4.7rem;
+}
+label[id='email-error']{
+    bottom:2.9rem;
 }

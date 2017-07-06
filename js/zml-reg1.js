@@ -2,46 +2,34 @@
  * Created by hp1 on 2017/7/2.
  */
 $().ready(function() {
-    // $('.mui-input-group').validate({
-    //     rules:{
-    //         name:{
-    //             required:true,
-    //             minlength:6,
-    //             // remote:{
-    //             //     url:'checkname.php',
-    //             //     type:"post",
-    //             //     dataType:'json',
-    //             //     data:{username:function(){
-    //             //         return $('#account').val();
-    //             //     }}
-    //             // }
-    //         },
-    //         pass:{
-    //             required:true,
-    //             minlength:6
-    //         },
-    //         repass:{
-    //             required: true,
-    //             equalTo: ".pass"
-    //         },
-    //     },
-    //     messages:{
-    //         name:{
-    //             required:'必填',
-    //             minlength:'用户名不能少于6个字符',
-    //             remote:'用户名已存在'
-    //
-    //         },
-    //         pass:{
-    //             required:'用户名不能为空',
-    //             minlength:'密码不能少于6个字符'
-    //         },
-    //         repass:{
-    //             required: '必填',
-    //             equalTo: "两次密码输入不一致"
-    //         },
-    //     }
-    // });
+    $('.mui-input-group').validate({
+        rules:{
+            email:{
+                required:true,
+                email:true
+            },
+            tel:{
+                required:true,
+                digits:true,
+                minlength:11,
+                maxlength:11,
+                range:[0,999999999999]
+            }
+        },
+        messages:{
+            email:{
+                required:'必填',
+                email:'请填写正确的email格式'
+            },
+            tel:{
+                required:'必填',
+                digits:"请输入正确手机号",
+                minlength:"请输入正确手机号",
+                maxlength:"请输入正确手机号",
+                range:"请输入正确手机号",
+            }
+        }
+    });
     $("input").each(function (i) {
         $("input")[i].oninput = function () {
             if ($("input[type=email]").val() && $("input[type=tel]").val()) {

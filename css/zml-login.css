@@ -14,7 +14,7 @@ html{
 }
 .zml-zhanwei{
     width:100%;
-    height:82%;
+    height:100%;
 }
 .zml-top{
     background-image: url("../img/zml-beijing.png");
@@ -37,7 +37,7 @@ a{
     margin-top: .2rem;
 }
 .zml-denglu{
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     width:100%;
     text-align: center;
 }
@@ -66,6 +66,16 @@ a{
     padding-left: .3rem;
     outline: none;
     box-sizing: border-box;
+}
+.zml-error{
+    width:3.8rem;
+    height: .68rem;
+    background: #303840;
+    border-radius: .34rem;
+    position: absolute;
+    left:.2rem;
+    bottom: -.34rem;
+    display: none;
 }
 .zml-rem{
     width:1rem;
@@ -99,6 +109,18 @@ a{
     width:3.12rem;
     height:.8rem;
     margin:.3rem auto 0;
+
+}
+label[for]{
+    width:3.8rem;
+    height: .68rem;
+    background: #303840;
+    border-radius: .34rem;
+    position: absolute;
+    left:.2rem;
+    bottom: -.34rem;
+    color:white;
+    line-height: .68rem;
 
 }
 /*第三方登录*/

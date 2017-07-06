@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+</head>
+<body>
+<form class="aaa" method="post">
+        <input type="text" name="member">
+
+
+        <input type="password" name="pass">
+
+    <input type="submit">
+</form>
+<script>
+    $(".aaa").validate({
+        rules:{
+            member:{
+                required:true,
+            },
+            pass:{
+                required:true,
+            },
+        },
+        messages:{
+            member:{
+                required:'用户名不能为空',
+            },
+            pass:{
+                required:'密码不能为空',
+            },
+        }
+    });
+</script>
+</body>
+</html>

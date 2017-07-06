@@ -23,9 +23,9 @@ form{
     text-align: center;
 }
 .zml-first{
-    margin-top: 6rem;
-    width:6.28rem;
-    height:7.33rem;
+    margin-top: 80%;
+    width:83%;
+    height:55%;
 }
 input{
     width:100%;
@@ -39,15 +39,15 @@ input{
 }
 input[name="name"]{
     left:0;
-    bottom: 5.55rem;
+    bottom: 5.23rem;
 }
 input[name="pass"]{
     left:0;
-    bottom: 4.15rem;
+    bottom: 3.8rem;
 }
 input[name="repass"]{
     left:0;
-    bottom: 2.7rem;
+    bottom: 2.4rem;
 }
 
 .zml-nextt{
@@ -63,11 +63,17 @@ input[name="repass"]{
 }
 label[for]{
     position: absolute;
-    width:100px;
-    /*width：auto；*/
-    right:0;
-    top:0;
+    right:1rem;
     color:red;
     font-size: 12px;
-    padding:15px 0;
+    padding-bottom: .2rem;
+}
+label[id='name-error']{
+    bottom:5.23rem;
+}
+label[id='pass-error']{
+    bottom:3.65rem;
+}
+label[id='repass-error']{
+    bottom:2.25rem;
 }
