@@ -1,0 +1,245 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    height:100%;
+}
+#header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:1.73rem;
+}
+#header  .top{
+    overflow: hidden;
+}
+#header  .return{
+    float:left;
+    margin-left:0.24rem;
+    margin-top:0.2rem;
+    width:0.84rem;
+}
+#header .center{
+    float: left;
+    margin-left:2.39rem;
+    margin-top:0.3rem;
+    width:0.56rem;
+    text-align: center;
+}
+#header .center h4{
+    font-size:0.28rem;
+    color:#fff;
+}
+#header .center  .circle{
+    width:0.33rem;
+    display:block;
+    margin:auto;
+}
+#header .search{
+    width:7rem;
+    height:0.55rem;
+    border:0.03rem solid #fe5767;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    padding:0 0.2rem ;
+    margin:0 auto;
+    border-radius:0.3rem;
+    margin-top:0.12rem;
+}
+#header .search img{
+    height:0.08rem;
+}
+#header .search input{
+    width:5.8rem;
+    height:100%;
+    border:none;
+    outline: none;
+    background:none;
+    margin-left:0.12rem;
+    font-size:0.24rem;
+    color:#fff;
+}
+input::-webkit-input-placeholder{
+    color: #fff;opacity:1;
+}
+#header .search .listen{
+    height:0.3rem;
+}
+/*iscroll*/
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 1.73rem;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+#scroller {
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    background:#f8f8f8;
+}
+/*查询结果*/
+.result{
+    padding:0 0.24rem 0  0.26rem;
+    width:100%;
+    box-sizing: border-box;
+    margin-top:0.36rem;
+}
+.result h4{
+    font-size:0.24rem;
+    color:#f81f35;
+}
+.result h5{
+    font-size:0.22rem;
+    color:#f81f35;
+    margin-top:0.04rem;
+}
+/*推荐结果*/
+.tui{
+    padding:0 0.24rem 0  0.26rem;
+    width:100%;
+    box-sizing: border-box;
+}
+.tui .tuititle{
+    width:2.82rem;
+}
+.tui  .tuicon{
+    overflow: hidden;
+}
+.tui  .tuicon .box{
+    float:left;
+    margin-right:0.25rem;
+    margin-top:0.24rem;
+    position:relative;
+}
+.tui  .tuicon .box .circle{
+    width:auto;
+    height:0.47rem;
+    float:left;
+    padding:0 0.35rem;
+    border-radius: 1rem;
+    border:0.04rem solid transparent;
+    background-clip:padding-box,border-box;
+    background-origin:padding-box,border-box;
+    background-image:linear-gradient(30deg,#fff,#fff),linear-gradient(30deg,#ed2d5e,#f82586);
+    box-sizing: border-box;
+    color:#ed2d5e;
+    font-size:0.22rem;
+    line-height:0.47rem;
+    text-align:center;
+}
+.tui  .tuicon .box .circle1{
+    width:0.12rem;
+    height:0.12rem;
+    background:#fff;
+    border-radius:50%;
+    border:0.04rem solid rgba(247,182,207,0.6);
+    position:absolute;
+    top:50%;
+    margin-top:-0.06rem;
+}
+.tui  .tuicon .box .circle3{
+    left:-0.06rem;
+}
+.tui  .tuicon .box .circle2{
+    right:-0.06rem;
+}
+/*其它结果*/
+.other{
+    padding:0 0.24rem 0  0.26rem;
+    width:100%;
+    box-sizing: border-box;
+}
+.other .othertitle{
+    width:2.36rem;
+}
+.other .othercon{
+    width:100%;
+    background:#fff;
+    overflow: hidden;
+    padding-bottom:0.2rem;
+}
+.other .othercon .line{
+    float:left;
+    margin-top:0.34rem;
+    height:1.17rem;
+}
+.other .othercon .tu{
+    float:left;
+    width:2.16rem;
+    margin-top:0.16rem;
+    margin-left:0.16rem;
+}
+.other .othercon .letter{
+    float:left;
+    margin-left:0.2rem;
+}
+.other .othercon .top{
+    margin-top:0.16rem;
+    margin-left:0.2rem;
+    overflow: hidden;
+}
+.other .othercon .top h4{
+    font-size:0.22rem;
+    color:#626060;
+}
+.other .othercon .top h5{
+    font-size:0.22rem;
+    color:#7a7979;
+}
+.other .othercon .top img{
+    display:block;
+    width:0.56rem;
+    margin-top:-0.6rem;
+    float:right;
+    margin-right:-1.01rem;
+}
+.other .othercon .bottom{
+    overflow: hidden;
+    margin-top:0.16rem;
+    margin-left:0.2rem;
+}
+.other .othercon .bottom .tou{
+    width:0.72rem;
+    float:left;
+}
+.other .othercon .bottom .right{
+    float:left;
+    margin-left:0.16rem;
+}
+.other .othercon .bottom .right .line1{
+    display:flex;
+    align-items: center;
+}
+.other .othercon .bottom .right .line1 span{
+    font-size:0.18rem;
+    color:#9a9999;
+}
+.other .othercon .bottom .right .line1 div img{
+    float:left;
+    width:0.13rem;
+    margin-left:0.12rem;
+}
+.other .othercon .bottom .right .line2{
+    display:flex;
+    align-items: center;
+}
+.other .othercon .bottom .right .line2 img{
+    float:left;
+    width:0.25rem;
+}
+.other .othercon .bottom .right .line2 img:nth-child(3){
+    margin-left: 0.19rem;
+}
+.other .othercon .bottom .right .line2 span{
+    float:left;
+    font-size:0.18rem;
+    color:#acabab;
+}

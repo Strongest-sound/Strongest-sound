@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>第六元素</title>
+</head>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/common.js"></script>
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/lp-search2.css">
+<link rel="stylesheet" href="../css/swiper.min.css">
+<style>
+    .swiper-container,.swiper-wrapper{
+        height:1.13rem;
+    }
+    .swiper-a{
+        margin-right:0.3rem;
+    }
+    .scon  .sswiper{
+        width:2.68rem !important;
+        height:1.13rem;
+    }
+</style>
+<body>
+<div id="header" style="background-image: url('../img/lp/search-1.png');background-size:cover;background-position: center">
+    <div class="top">
+        <img class="return" src="../img/lp/recommend-1.png" alt="">
+        <div class="center">
+            <h4 class="title">搜索</h4>
+            <img class="circle" src="../img/lp/recommend-11.png" alt="">
+        </div>
+    </div>
+    <form  class='search' action="">
+        <img src="../img/lp/search-2.png" alt="">
+        <input type="text" placeholder="请输入您想听的歌曲">
+        <img class="listen" src="../img/lp/search2-6.png" alt="">
+    </form>
+</div>
+<div id="wrapper">
+    <div id="scroller">
+        <div class="box">
+            <div class='top'>
+                <a class="box1">
+                    <div class="circle1 circle3"></div>
+                    <div class="circle">
+                        地区
+                    </div>
+                    <div class="circle1 circle2"></div>
+                </a>
+                <a class="box1">
+                    <div class="circle1 circle3"></div>
+                    <div class="circle">
+                       艺人
+                    </div>
+                    <div class="circle1 circle2"></div>
+                </a>
+                <a class="box1">
+                    <div class="circle1 circle3"></div>
+                    <div class="circle">
+                        组合
+                    </div>
+                    <div class="circle1 circle2"></div>
+                </a>
+                <a class="box1">
+                    <div class="circle1 circle3"></div>
+                    <div class="circle">
+                        流派
+                    </div>
+                    <div class="circle1 circle2"></div>
+                </a>
+            </div>
+            <div class='bottom'>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img class="tou" src="../img/lp/search2-5.png" alt="">
+                            <div class='letter'>
+                                <h4>EveryBody Happy</h4>
+                                <h5>每个人都会快乐，因为我们有一颗积极向上的心</h5>
+                                <img class="dotted" src="../img/lp/search2-2.png" alt="">
+                                <div class="last">
+                                    <img src="../img/lp/search2-3.png" alt="">
+                                    <span>136521</span>
+                                </div>
+                            </div>
+                        </a>
+                        <img class="splite" src="../img/lp/search2-4.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../js/swiper.min.js"></script>
+<script>
+    window.onload=function(){
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+        $('.return').click(function(){
+            location.href=history.back();
+        })
+        $('.search input').change(function(){
+            let value=$('.search input').val();
+            location.href=`lp-search2.html?value=${value}`;
+        })
+        $('.listen').click(function(){
+            let value=$('.search input').val();
+            location.href=`lp-search3.html?value=${value}`;
+        })
+    }
+</script>
