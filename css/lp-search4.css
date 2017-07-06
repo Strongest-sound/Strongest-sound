@@ -76,14 +76,14 @@ input::-webkit-input-placeholder{
     bottom:0;
     left: 0;
     width: 100%;
-    background: #f8f8f8;
+    background: #fff;
     overflow: hidden;
 }
 #scroller {
     position:absolute;
     z-index: 1;
     width: 100%;
-    background:#f8f8f8;
+    background:#fff;
 }
 /*查询结果*/
 .result{
@@ -106,6 +106,7 @@ input::-webkit-input-placeholder{
     padding:0 0.24rem 0  0.26rem;
     width:100%;
     box-sizing: border-box;
+    margin-top:20px;
 }
 .tui .tuititle{
     width:2.82rem;
@@ -151,11 +152,12 @@ input::-webkit-input-placeholder{
 .tui  .tuicon .box .circle2{
     right:-0.06rem;
 }
-/*其它结果*/
+/*相关结果*/
 .other{
     padding:0 0.24rem 0  0.26rem;
     width:100%;
     box-sizing: border-box;
+    margin-top:20px;
 }
 .other .othertitle{
     width:2.36rem;
@@ -242,4 +244,255 @@ input::-webkit-input-placeholder{
     float:left;
     font-size:0.18rem;
     color:#acabab;
+}
+
+
+.tui{
+    padding:0 0.24rem 0  0.26rem;
+    width:100%;
+    box-sizing: border-box;
+}
+.tui .tuititle{
+    width:2.82rem;
+}
+.tui  .tuicon{
+    overflow: hidden;
+}
+.tui  .tuicon .box{
+    float:left;
+    margin-right:0.25rem;
+    margin-top:0.24rem;
+    position:relative;
+}
+.tui  .tuicon .box .circle{
+    width:auto;
+    height:0.47rem;
+    float:left;
+    padding:0 0.35rem;
+    border-radius: 1rem;
+    border:0.04rem solid transparent;
+    background-clip:padding-box,border-box;
+    background-origin:padding-box,border-box;
+    background-image:linear-gradient(30deg,#fff,#fff),linear-gradient(30deg,#ed2d5e,#f82586);
+    box-sizing: border-box;
+    color:#ed2d5e;
+    font-size:0.22rem;
+    line-height:0.47rem;
+    text-align:center;
+}
+.tui  .tuicon .box .circle1{
+    width:0.12rem;
+    height:0.12rem;
+    background:#fff;
+    border-radius:50%;
+    border:0.04rem solid rgba(247,182,207,0.6);
+    position:absolute;
+    top:50%;
+    margin-top:-0.06rem;
+}
+.tui  .tuicon .box .circle3{
+    left:-0.06rem;
+}
+.tui  .tuicon .box .circle2{
+    right:-0.06rem;
+}
+/*相关结果*/
+ul.d_like_listcon{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin-top: 0.1rem;
+    overflow: hidden;
+}
+.d_like_listcon > li{
+    width:7.15rem;
+    height:1.85rem;
+    margin:0.15rem auto;
+    box-shadow: 0 0 0.1rem #ccc;
+}
+.d_like_listcon > li > a{
+    width:100%;
+    height:100%;
+}
+.d_like_listcon > li .d_decorate{
+    width:auto;
+    height:100%;
+    overflow: hidden;
+    float:left;
+}
+.d_like_listcon > li .d_decorate .d_rect{
+    width:0.08rem ;
+    height:1rem;
+    background:#fa2e84;
+    border-radius: 0.5rem;
+    margin-top: 0.1rem;
+}
+.d_like_listcon > li .d_decorate .d_circle{
+    width:0.08rem;
+    height:0.08rem;
+    background:#fa2e84 ;
+    border-radius: 50%;
+    margin-top: 0.1rem;
+}
+.d_like_left{
+    width:1.4rem;
+    height:100%;
+    float:left;
+    margin-left: 0.1rem;
+    text-align: center;
+}
+.d_like_left .d_like_img{
+    width:1.12rem;
+    height:1.12rem;
+    margin:0.05rem auto 0;
+    border-radius: 50%;
+    background-image: url("../img/dzq/like_bg.png");
+    background-size: 100%;
+    position:relative ;
+    background-repeat: no-repeat;
+}
+.d_like_img .d_replace{
+    width:60%;
+    height:60%;
+    border:0.02rem solid #bbbdc1;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-image: url("../img/dzq/like_img.png");
+    background-position: center;
+    position: absolute;
+    margin: auto;
+    left:0;right:0;
+    top:0;bottom:0;
+    background-repeat: no-repeat;
+}
+.d_like_img img{
+    position: absolute;
+    left: 0;right:0;
+    top:0;bottom:0;
+    margin:auto;
+}
+.d_like_left > h4{
+    color:#b9b9b9;
+    font-family: "苹方 中等";
+    font-size: 0.24rem;
+}
+.d_like_left > h5{
+    font-size: 0.18rem;
+    color:#b9b9b9;
+}
+.d_like_right{
+    width:5.15rem;
+    height:100%;
+    float:left;
+    margin-top: 0.15rem;
+}
+.d_like_top{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.d_like_top h4{
+    color:#626060;
+    font-size: 0.22rem;
+    font-family: "苹方 中等";
+    margin-top: 0.15rem;
+}
+.d_like_top > span{
+    color:#b9b9b9;
+    font-size: 0.18rem;
+    font-family: "苹方 中等";
+    margin-top: 0.05rem;
+    margin-bottom: 0.1rem;
+}
+.d_like_top > img{
+    width:20%;
+    display:block;
+    margin-left: 0.1rem;
+}
+.d_like_center{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin-top: 0.1rem;
+}
+.d_like_play,.d_like_issue{
+    width:auto;
+    height:auto;
+    float:left;
+    display: flex;
+}
+.d_like_play{
+    margin-right: 0.35rem;
+}
+.d_like_play>div,.d_like_issue > div{
+    width:0.14rem;
+    height:0.14rem;
+    border-radius: 50%;
+    margin-top: 0.05rem;
+    margin-right: 0.1rem;
+}
+.d_like_play>div.d_circle_red{
+    background:#fff;
+    /*box-shadow: 0 0 0.06rem #e22a77;*/
+}
+.d_like_issue > div.d_circle_green{
+    background:#fff;
+    /*box-shadow: 0 0 0.06rem #c1e22a;*/
+}
+.d_like_play > span,.d_like_issue >span{
+    color:#fff;
+    font-size:0.18rem;
+    font-family: "苹方 中等";
+}
+/*点赞人头像*/
+.d_like_bottom{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    line-height: 0.5rem;
+}
+.d_like_photo{
+    width:1.7rem;
+    height:0.46rem;
+    overflow: hidden;
+    display:flex;
+    float: left;
+}
+.d_like_photo li{
+    width:0.46rem;
+    height:0.46rem;
+    border-radius: 50%;
+    background-size: 100%;
+}
+.d_like_photo li:nth-child(1)~li{
+    margin-left: -0.15rem
+}
+.d_like_bottom p{
+    color:#c3c3c3;
+    font-size: 0.18rem;
+    font-family: "Myriad Pro";
+    float:left;
+}
+.d_current{
+    width:auto;
+    height:auto;
+    float: right;
+    overflow: hidden;
+    display: flex;
+}
+.d_current  div.d_current_headerset{
+    width:0.32rem;
+    height:0.32rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0.06rem #f1f1f1;
+    margin-top: 0.05rem;
+}
+.d_current  div.d_current_headerset img{
+    width:100%;
+    height:100%;
+}
+.d_current  > p{
+    color:#c3c3c3;
+    font-size:0.18rem;
+    font-family: "苹方 常规";
 }

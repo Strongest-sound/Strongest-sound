@@ -135,8 +135,14 @@ input::-webkit-input-placeholder{
     -webkit-align-items: center;
     align-items: center;
 }
+.singer .scon .swiper-a{
+    display:block;
+    width:100%;
+    height:100%;
+}
 .singer .scon .content{
-    margin-left:0.4rem;
+    margin-left:0.8rem;
+    margin-top:0.2rem;
     text-align: left;
 }
 .singer .scon  h4{
@@ -271,7 +277,11 @@ input::-webkit-input-placeholder{
     margin-top:0.14rem;
 }
 .hot .hotcon a .tu .tou{
+    width:0.55rem;
     height:0.55rem;
+    border:0.02rem solid #fff;
+    border-radius: 50%;
+    margin-left:0;
 }
 .hot .hotcon a .tu h6{
     font-size:0.26rem;

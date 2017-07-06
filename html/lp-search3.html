@@ -16,18 +16,6 @@
 <link rel="stylesheet" href="../css/common.css">
 <link rel="stylesheet" href="../css/lp-search3.css">
 <link rel="stylesheet" href="../css/swiper.min.css">
-<style>
-    .swiper-container,.swiper-wrapper{
-        height:1.13rem;
-    }
-    .swiper-a{
-        margin-right:0.3rem;
-    }
-    .scon  .sswiper{
-        width:2.68rem !important;
-        height:1.13rem;
-    }
-</style>
 <body>
 <div id="header" style="background-image: url('../img/lp/search3-1.png');background-size:cover;background-position: center">
     <div class="top">
@@ -49,8 +37,76 @@
 <div id="wrapper">
     <div id="scroller">
         <!--推荐结果-->
+
         <div class="tui">
             <img class="tuititle" src="../img/lp/search3-3.png" alt="">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../img/dzq/scarousel_bg.png" alt="" class="scarousel_bg">
+                        <div class="d_song_img"></div>
+                        <div class="d_elecMusic_con">
+                            <a href="">
+                                <p>Fantastic Baby</p>
+                                <h4>魔力宝宝</h4>
+                            </a>
+                            <div class="d_elecMusic_record">
+                                <img src="../img/dzq/record2.png" alt="">
+                                <span>4567</span>
+                            </div>
+                            <div class="d_elecMusic_bottom">
+                                <div class="d_head">
+                                    <img src="../img/dzq/small_img.png" alt="">
+                                </div>
+                                <h4>BIGBANG</h4>
+                                <div class="d_fabulous"><img src="../img/dzq/fabulous2.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/dzq/scarousel_bg.png" alt="" class="scarousel_bg">
+                        <div class="d_song_img"></div>
+                        <div class="d_elecMusic_con">
+                            <a href="">
+                                <p>Fantastic  Baby</p>
+                                <h4>魔力宝宝</h4>
+                            </a>
+                            <div class="d_elecMusic_record">
+                                <img src="../img/dzq/record2.png" alt="">
+                                <span>4567</span>
+                            </div>
+                            <div class="d_elecMusic_bottom">
+                                <div class="d_head">
+                                    <img src="../img/dzq/small_img.png" alt="">
+                                </div>
+                                <h4>BIGBANG</h4>
+                                <div class="d_fabulous"><img src="../img/dzq/fabulous2.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/dzq/scarousel_bg.png" alt="" class="scarousel_bg">
+                        <div class="d_song_img"></div>
+                        <div class="d_elecMusic_con">
+                            <a href="">
+                                <p>Fantastic  Baby</p>
+                                <h4>魔力宝宝</h4>
+                            </a>
+                            <div class="d_elecMusic_record">
+                                <img src="../img/dzq/record2.png" alt="">
+                                <span>4567</span>
+                            </div>
+                            <div class="d_elecMusic_bottom">
+                                <div class="d_head">
+                                    <img src="../img/dzq/small_img.png" alt="">
+                                </div>
+                                <h4>BIGBANG</h4>
+                                <div class="d_fabulous"><img src="../img/dzq/fabulous2.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--其它结果-->
         <div class="other">
@@ -65,10 +121,12 @@
                         <img src="../img/lp/search3-7.png" alt="">
                     </div>
                     <div class="bottom">
-                        <img  class="tou" src="../img/lp/search3-9.png" alt="">
+                        <div class="tou" style="background-image: url('../img/lp/search3-13.png');background-size:cover;background-position: center">
+                            <div class="touimg"  style="background-image: url('../img/lp/search3-12.png');background-size:cover;background-position: center"> </div>
+                        </div>
                         <div class="right">
                             <div class="line1">
-                                <span>发布者 ： </span><span>小黑狗 </span>
+                                <span>发布者:</span><span>小黑狗 </span>
                                 <div>
                                     <img src="../img/lp/search-13.png" alt="">
                                     <img src="../img/lp/search-13.png" alt="">
@@ -80,8 +138,6 @@
                             <div class="line2">
                                 <img src="../img/lp/search3-10.png" alt="">
                                 <span>13456</span><span>人次</span>
-                                <img src="../img/lp/search3-11.png" alt="">
-                                <span>深圳</span>
                             </div>
                         </div>
                     </div>
@@ -95,11 +151,6 @@
 <script src="../js/swiper.min.js"></script>
 <script>
     window.onload=function(){
-        var myScroll = new IScroll('#wrapper', {
-            mouseWheel: true,
-            scrollbars: true,
-            click:true
-        });
         $('.return').click(function(){
             location.href=history.back();
         })
@@ -111,5 +162,20 @@
             let value=$('.search input').val();
             location.href=`lp-search3.html?value=${value}`;
         })
+        //swiper
+        var swiperSlide=$(".swiper-slide");
+        swiperSlide.css({"width:":"auto"});
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 2.5,
+            paginationClickable: true,
+            spaceBetween: 20,
+        });
+//        iscroll
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
     }
 </script>

@@ -64,14 +64,13 @@ body{
 }
 .hot ul li{
     width:100%;
-    height:1.8rem;
     background:#fff;
-    overflow: hidden;
     margin-top:0.23rem ;
     padding-top:0.13rem;
     padding-left:0.12rem;
     padding-right:0.21rem;
-    box-sizing:border-box;
+    padding-bottom:0.1rem;
+    overflow: hidden;
 }
 .hot ul li .img{
     width:0.59rem;
@@ -131,6 +130,9 @@ body{
     align-items: center;
 }
 .hot ul li .right .share .like{
+    margin-left:0rem;
+}
+.hot ul li .right .share .like .likeimg{
     margin-left:0rem;
 }
 .hot ul li .right .share div img{
