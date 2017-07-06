@@ -80,8 +80,10 @@ window.onload=function(){
     $(".audio").click(function(){
 		if(audio.paused){
 			audio.src=musics[select].src;  //select 的值对应数据库的歌地址赋给
+			$(this).find("img").attr("src","../img/mx_play.png")
 			audio.play();
 		}else{
+			$(this).find("img").attr("src","../img/mx_pased.png");
 			audio.pause();
 		}
     })
@@ -174,13 +176,13 @@ window.onload=function(){
 	};
 	$(".play>.random").click(function(){
 		if(fleg==false){
+			$(this).find("img").attr("src","../img/mx_random.png")
 			fleg=true;
 		}else{
 			fleg=false;	
+			$(this).find("img").attr("src","../img/mx_suiji.png")
 		}
 	})
-	
-	
 	//分享的按钮点击
 	$(".share").click(function(){
 		$(".share_hidden").css("display","block");
@@ -193,5 +195,10 @@ window.onload=function(){
 	$(".download").click(function(){
 		$(this).attr("href",audio.src);
 		$(this).attr("download",audio.src);
+	})
+	//收藏按钮的点击
+	$(".shoucang").click(function(){
+			$(this).find("img").attr("src","../img/yishoucang.png")
+			//发送aiax进行数据库的更新
 	})
 }
