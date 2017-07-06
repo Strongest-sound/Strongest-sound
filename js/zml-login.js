@@ -1,7 +1,7 @@
 /**
  * Created by hp1 on 2017/7/2.
  */
-$().ready(function(){
+ $().ready(function(){
     let flag1=true;
     let flag2=true;
     function getstyle(card1,card2,content){
@@ -32,6 +32,19 @@ $().ready(function(){
         });
     }
     getstyle(".zml-denglu div span:nth-child(1) img",".zml-denglu div span:nth-child(2) img",".zml-tianxie");
+     // $("input").each(function(i) {
+     //     $("input")[i].onchange = function () {
+     //         alert(1);
+     //         if (!$("input[type=text]").val()) {
+     //             $(".zml-error").css("display", "block");
+     //             $(".zml-error").html("名字不能为空");
+     //         }
+     //         if (!$("input[type=password]").val()) {
+     //             $(".zml-error").css("display", "block");
+     //             $(".zml-error").html("密码不能为空");
+     //         }
+     //     }
+     // });
     $("input").each(function(i){
         $("input")[i].oninput = function() {
             if($("input[type=text]").val()&&$("input[type=password]").val()){

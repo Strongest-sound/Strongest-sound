@@ -35,10 +35,12 @@
                         <div class="zml-tianxie">
                             <img src="../img/zml-name.png" alt="">
                             <input type="text" name="member">
+                            <div class="zml-error"></div>
                         </div>
                         <div class="zml-tianxie first">
                             <img src="../img/zml-pass.png" alt="">
                             <input type="password" name="pass">
+                            <div class="zml-error"></div>
                         </div>
                     </form>
                     <div>
@@ -76,25 +78,27 @@
             </div>
         </div>
     </div>
-    <!--<script>-->
-            <!--$(".aaa").validate({-->
-                <!--rules:{-->
-                    <!--member:{-->
-                        <!--required:true,-->
-                    <!--},-->
-                    <!--pass:{-->
-                        <!--required:true,-->
-                    <!--},-->
-                <!--},-->
-                <!--messages:{-->
-                    <!--member:{-->
-                        <!--required:'用户名不能为空',-->
-                    <!--},-->
-                    <!--pass:{-->
-                        <!--required:'密码不能为空',-->
-                    <!--},-->
-                <!--}-->
-            <!--});-->
-    <!--</script>-->
+    <script>
+        $(document).ready(function() {
+            $('.aaa').validate({
+                rules: {
+                    member: {
+                        required: true,
+                    },
+                    pass: {
+                        required: true,
+                    },
+                },
+                messages: {
+                    member: {
+                        required: '用户名不能为空',
+                    },
+                    pass: {
+                        required: '密码不能为空',
+                    },
+                }
+            });
+        });
+    </script>
 </body>
 </html>
