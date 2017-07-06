@@ -2,10 +2,10 @@
  * Created by hp1 on 2017/7/5.
  */
 class Upload{
-    constructor(url,fileobj,imgobj,progressobj,success){
+    constructor(url,fileobj,imgobj,success){
         this.fileobj=fileobj;
         this.imgobj=imgobj;
-        this.progressobj=progressobj;
+        // this.progressobj=progressobj;
         this.size=20*1024*1024;
         this.imgarr=["jpg","png","jpeg","gif"];
         this.url=url;
@@ -47,10 +47,10 @@ class Upload{
             //提交表单禁用
         };
         //进度
-        ajax.upload.onprogress=function(e){
-            let per=e.loaded/e.total*100;
-            that.progressobj.style.width=per+'%';
-        };
+        // ajax.upload.onprogress=function(e){
+        //     let per=e.loaded/e.total*100;
+        //     that.progressobj.style.width=per+'%';
+        // };
         //现在ajax没有完成，完成后做的事情
         ajax.onload=function () {
             console.log(ajax.responseText);
@@ -64,7 +64,7 @@ let fileobj=document.querySelector(".fileobj");
 let imgobj=document.querySelector(".img");
 let progressobj=document.querySelector(".rect");
 let imgurl=document.querySelector('#imgurl');
-let obj=new Upload("newaddcontent.php",fileobj,imgobj,progressobj,function(text){
+let obj=new Upload("newaddcontent.php",fileobj,imgobj,function(text){
     imgurl.value=text;
 });
 obj.change();
