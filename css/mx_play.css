@@ -91,6 +91,7 @@ a.fanhui>img{
 .mx_top>div>ul>li>.title>div{
 	font-size: .18rem;
 	width: 100%;
+	margin-top: -.06rem;
 }
 .mx_top>div>ul>li>.title>div>span{
 	color: #ffa72a;
@@ -181,6 +182,8 @@ a.fanhui>img{
 	position: absolute;
 	top: 1.4rem;
 	left: 0;
+	height: 75%;
+	overflow: hidden;
 }
 .mx_top>div>ul>li:last-child>.geci>p{
 	margin: .07rem 0;

@@ -80,15 +80,10 @@ window.onload=function(){
     $(".audio").click(function(){
 		if(audio.paused){
 			audio.src=musics[select].src;  //select 的值对应数据库的歌地址赋给
-<<<<<<< HEAD
 			$(this).find("img").attr("src","../img/mx_play.png")
 			audio.play();
 		}else{
-			$(this).find("img").attr("src","../img/mx_pased.png")
-=======
-			audio.play();
-		}else{
->>>>>>> 930a5b055f2cb4450708313a961e9b8ceed90f70
+			$(this).find("img").attr("src","../img/mx_pased.png");
 			audio.pause();
 		}
     })
@@ -181,7 +176,6 @@ window.onload=function(){
 	};
 	$(".play>.random").click(function(){
 		if(fleg==false){
-<<<<<<< HEAD
 			$(this).find("img").attr("src","../img/mx_random.png")
 			fleg=true;
 		}else{
@@ -189,16 +183,6 @@ window.onload=function(){
 			$(this).find("img").attr("src","../img/mx_suiji.png")
 		}
 	})
-	
-=======
-			fleg=true;
-		}else{
-			fleg=false;	
-		}
-	})
-	
-	
->>>>>>> 930a5b055f2cb4450708313a961e9b8ceed90f70
 	//分享的按钮点击
 	$(".share").click(function(){
 		$(".share_hidden").css("display","block");
@@ -212,13 +196,9 @@ window.onload=function(){
 		$(this).attr("href",audio.src);
 		$(this).attr("download",audio.src);
 	})
-<<<<<<< HEAD
 	//收藏按钮的点击
 	$(".shoucang").click(function(){
 			$(this).find("img").attr("src","../img/yishoucang.png")
-			//发送aiax尽心数据库的更新
+			//发送aiax进行数据库的更新
 	})
-	
-=======
->>>>>>> 930a5b055f2cb4450708313a961e9b8ceed90f70
 }
