@@ -8,7 +8,6 @@
         $(card1).on("touchstart",function(){
             if(flag1){
                 flag1=false;
-                // console.log($(content));
                 $(card1).eq(1).addClass('first');
                 $(card1).eq(0).removeClass('first');
                 $(card2).eq(1).addClass('first');
@@ -32,34 +31,26 @@
         });
     }
     getstyle(".zml-denglu div span:nth-child(1) img",".zml-denglu div span:nth-child(2) img",".zml-tianxie");
-     // $("input").each(function(i) {
-     //     $("input")[i].onchange = function () {
-     //         alert(1);
-     //         if (!$("input[type=text]").val()) {
-     //             $(".zml-error").css("display", "block");
-     //             $(".zml-error").html("名字不能为空");
-     //         }
-     //         if (!$("input[type=password]").val()) {
-     //             $(".zml-error").css("display", "block");
-     //             $(".zml-error").html("密码不能为空");
-     //         }
-     //     }
-     // });
+     $("input").focus(function(){
+         $("html").css("overflow","auto");
+     });
+     $("input").blur(function(){
+         $("html").css("overflow","hidden");
+     });
     $("input").each(function(i){
         $("input")[i].oninput = function() {
             if($("input[type=text]").val()&&$("input[type=password]").val()){
                 $(".zml-login1").addClass("first");
                 $(".zml-login2").removeClass("first");
-                $(".zml-login2").click(function(){
-                    $(".zml-login2").addClass("first");
-                    $(".zml-login3").removeClass("first");
-                    setTimeout(function(){
-                        location.href="index.html";
-                    },2000);
-                })
             }
-
-
         };
     });
+
+     $(".zml-login2").click(function(){
+         $(".zml-login2").addClass("first");
+         $(".zml-login3").removeClass("first");
+         setTimeout(function(){
+             location.href="index.html";
+         },2000);
+     })
 });

@@ -6,6 +6,9 @@ html,body{
 }
 a{
     display: block;
+
+}
+.dingbu{
     width:.84rem;
     height:.42rem;
     margin-top: .2rem;
