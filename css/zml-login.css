@@ -1,20 +1,27 @@
 .first{
     display: none;
 }
-html{
+html,body{
     width:100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height:100%;
-}
-.zml-total{
-    position: fixed;
     bottom: 0;
+    position: fixed;
+}
+/*body{*/
+    /*width:100%;*/
+    /*height:100%;*/
+/*}*/
+.zml-total{
+    /*position: fixed;*/
+    /*bottom: 0;*/
     width:100%;
     height:100%;
+    overflow: hidden;
 }
 .zml-zhanwei{
     width:100%;
-    height:100%;
+    height:81%;
 }
 .zml-top{
     background-image: url("../img/zml-beijing.png");
