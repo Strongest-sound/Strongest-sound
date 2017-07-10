@@ -34,7 +34,7 @@
     let margin=$(".zml-denglu").css("margin-top");
      $("input").focus(function(){
          // alert(1);
-         $("input").css("margin-top",0);
+         $(".zml-denglu").css("margin-top",0);
          // $("html").css("overflow","auto");
      });
      $("input").blur(function(){
