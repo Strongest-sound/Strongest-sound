@@ -31,11 +31,15 @@
         });
     }
     getstyle(".zml-denglu div span:nth-child(1) img",".zml-denglu div span:nth-child(2) img",".zml-tianxie");
+    let margin=$(".zml-denglu").css("margin-top");
      $("input").focus(function(){
-         $("html").css("overflow","auto");
+         // alert(1);
+         $("input").css("margin-top",0);
+         // $("html").css("overflow","auto");
      });
      $("input").blur(function(){
-         $("html").css("overflow","hidden");
+         // $("html").css("overflow","hidden");
+         $(".zml-denglu").css("margin-top",margin);
      });
     $("input").each(function(i){
         $("input")[i].oninput = function() {
