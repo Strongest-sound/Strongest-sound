@@ -3,18 +3,11 @@
 }
 html,body{
     width:100%;
-    /*overflow: hidden;*/
     height:100%;
     bottom: 0;
     position: fixed;
 }
-/*body{*/
-    /*width:100%;*/
-    /*height:100%;*/
-/*}*/
 .zml-total{
-    /*position: fixed;*/
-    /*bottom: 0;*/
     width:100%;
     height:100%;
     overflow: hidden;
@@ -25,11 +18,10 @@ html,body{
 }
 .zml-top{
     background-image: url("../img/zml-beijing.png");
-    background-size: cover;
+    background-size: 100% 75%;
     background-repeat: no-repeat;
-    /*width:7.5rem;*/
-    height:8.78rem;
     width:100%;
+    height:100%;
 
 }
 a{
@@ -43,8 +35,12 @@ a{
     margin-right: .25rem;
     margin-top: .2rem;
 }
+.zml-tuxiang{
+    width:100%;
+    height:45%;
+}
 .zml-denglu{
-    margin-top: 5.5rem;
+    height:55%;
     width:100%;
     text-align: center;
 }
@@ -108,7 +104,6 @@ a{
     margin-right: .55rem;
 }
 .zml-denglu div:nth-child(4){
-    /*width:3.62rem;*/
     text-align: center;
     margin-top: .1rem;
 }
@@ -133,16 +128,16 @@ label[for]{
 /*第三方登录*/
 .zml-three{
     width:100%;
-    height:auto;
+    height:19%;
     overflow: hidden;
     text-align: center;
     font-size: 0;
-    margin-top: .3rem;
 }
 .zml-three img:nth-child(1){
     width:6.16rem;
     height:.22rem;
     margin: 0 auto;
+    padding-top: .3rem;
 }
 .zml-three div:nth-child(2){
     width:4.1rem;

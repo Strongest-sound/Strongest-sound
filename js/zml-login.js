@@ -31,16 +31,16 @@
         });
     }
     getstyle(".zml-denglu div span:nth-child(1) img",".zml-denglu div span:nth-child(2) img",".zml-tianxie");
-    let margin=$(".zml-denglu").css("margin-top");
-     $("input").focus(function(){
-         // alert(1);
-         $(".zml-denglu").css("margin-top",0);
-         // $("html").css("overflow","auto");
-     });
-     $("input").blur(function(){
-         // $("html").css("overflow","hidden");
-         $(".zml-denglu").css("margin-top",margin);
-     });
+    // let margin=$(".zml-denglu").css("margin-top");
+    //  $("input").focus(function(){
+    //      // alert(1);
+    //      $(".zml-denglu").css("margin-top",0);
+    //      // $("html").css("overflow","auto");
+    //  });
+    //  $("input").blur(function(){
+    //      // $("html").css("overflow","hidden");
+    //      $(".zml-denglu").css("margin-top",margin);
+    //  });
     $("input").each(function(i){
         $("input")[i].oninput = function() {
             if($("input[type=text]").val()&&$("input[type=password]").val()){
